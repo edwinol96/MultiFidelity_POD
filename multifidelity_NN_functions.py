@@ -13,7 +13,7 @@ from tensorflow.keras.optimizers import Adam,Nadam,Adamax, RMSprop
 import keras.backend as K
 import tensorflow as tf
 from tensorflow.keras.constraints import max_norm
-from pyDOE import lhs
+from pyDOE3 import lhs
 from tensorflow.keras.models import model_from_json
 from celluloid import Camera
 from matplotlib.animation import PillowWriter
